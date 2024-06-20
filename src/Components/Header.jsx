@@ -39,7 +39,7 @@ const Header = () => {
                         <Link to='/PlanningTool'>PlanningTool</Link>
                     </Navbar.Link>
                   
-                    <div className=" left-0 top-full hidden group-hover:flex flex-col mt-2 bg-white shadow-lg">
+                    <div className=" md:absolute left-0 top-full hidden group-hover:flex flex-col mt-2 bg-white shadow-lg">
                         <Link to='/PlanningTool/Budget' className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Budget</Link>
                         <Link to='/PlanningTool/Outdoor' className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Outdoor Venues</Link>
                         <Link to='/PlanningTool/Destination' className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Destination Venues</Link>
@@ -50,7 +50,7 @@ const Header = () => {
                     <Navbar.Link active={path === '/WeddingVendor'} as={'div'}>
                         <Link to='/WeddingVendor'>WeddingVendor</Link>
                     </Navbar.Link>
-                    <div className=" left-0 top-full hidden group-hover:flex flex-col mt-2 bg-white shadow-lg">
+                    <div className=" md:absolute left-0 top-full hidden group-hover:flex flex-col mt-2 bg-white shadow-lg">
                         <Link to='/WeddingVendor/WeddingPhotographers' className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Wedding Photographers</Link>
                         <Link to='/WeddingVendor/WeddingVideographers' className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Wedding Videographers</Link>
                         <Link to='/WeddingVendor/WeddingPlanners' className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Wedding Planners</Link>
@@ -61,7 +61,7 @@ const Header = () => {
                     <Navbar.Link active={path === '/WeddingVenue'} as={'div'}>
                         <Link to='/WeddingVenue'>WeddingVenue</Link>
                     </Navbar.Link>
-                    <div className=" left-0 top-full hidden group-hover:flex flex-col mt-2 bg-white shadow-lg">
+                    <div className=" md:absolute left-0 top-full hidden group-hover:flex flex-col mt-2 bg-white shadow-lg">
                         <Link to='/WeddingVenue/Indoor' className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Banquet Halls</Link>
                         <Link to='/WeddingVenue/Outdoor' className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Wedding Resorts</Link>
                         <Link to='/WeddingVenue/Destination' className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kalyana Mandapams</Link>
@@ -71,7 +71,7 @@ const Header = () => {
                     <Navbar.Link active={path === '/Bride'} as={'div'}>
                         <Link to='/Bride'>Bride</Link>
                     </Navbar.Link>
-                    <div className=" left-0 top-full hidden group-hover:flex flex-col mt-2 bg-white shadow-lg">
+                    <div className=" md:absolute left-0 top-full hidden group-hover:flex flex-col mt-2 bg-white shadow-lg">
                         <Link to='/Bride/MehndiArtists' className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Mehndi Artists</Link>
                         <Link to='/Bride/BridalMakeupArtists' className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Bridal Makeup Artists</Link>
                         <Link to='/Bride/BridalJewellery' className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Bridal Jewellery</Link>
@@ -81,7 +81,7 @@ const Header = () => {
                     <Navbar.Link active={path === '/Groom'} as={'div'}>
                         <Link to='/Groom'>Groom</Link>
                     </Navbar.Link>
-                    <div className="left-0 top-full hidden group-hover:flex flex-col mt-2 bg-white shadow-lg">
+                    <div className=" md:absolute left-0 top-full hidden group-hover:flex flex-col mt-2 bg-white shadow-lg">
                         <Link to='/Groom/Sherwani' className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Sherwani</Link>
                         <Link to='/Groom/GroomMakeupArtists' className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Groom Makeup Artists</Link>
                     </div>
