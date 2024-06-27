@@ -15,6 +15,8 @@ import {
 } from "flowbite-react";
 import { useDispatch, useSelector } from "react-redux";
 import { toggleTheme } from "../Redux/Slice/themeSlice";
+import { BiBold } from "react-icons/bi";
+import { signOutSuccess } from "../Redux/Slice/userSlice";
 
 
 const Header = () => {
@@ -22,6 +24,11 @@ const Header = () => {
   const dispatch = useDispatch();
   const { currentuser } = useSelector((state) => state.user);
    const { theme } = useSelector((state)=>state.theme);
+    const handleSignout = ()=>{
+        dispatch(signOutSuccess())
+        localStorage.removeItem("token")
+    }
+
   return (
     <Navbar className="border-b-2 dark:bg-black">
       <Link
@@ -38,6 +45,7 @@ const Header = () => {
           placeholder="Search the Vendor Company or Name..."
           rightIcon={AiOutlineSearch}
           className="hidden lg:inline"
+          
         />
       </form>
       <Button
@@ -63,15 +71,17 @@ const Header = () => {
             }
           >
             <DropdownHeader>
-              <span className="block text-sm">{currentuser.rest.username}</span>
+              <span className="block text-sm"> 👤<strong>{currentuser.rest.username}</strong></span>
+              <br />
+              <span className="block text-sm"> 📧<strong>{currentuser.rest.email}</strong></span>
             </DropdownHeader>
 
             
-              <DropdownItem>Profile</DropdownItem>
+              
             
             <DropdownDivider />
             <Link to="/Signin">
-            <DropdownItem>Sign out</DropdownItem>
+            <DropdownItem onClick={handleSignout}> ⬅️ <strong className="text-red-700">Sign out</strong></DropdownItem>
             </Link>
           </Dropdown>
         ) : (
@@ -93,8 +103,6 @@ const Header = () => {
                 <FaSun />
             )
             }
-         
-
 
         </Button>
         <Navbar.Toggle />
@@ -105,7 +113,7 @@ const Header = () => {
             <Link to="/PlanningTool">PlanningTool</Link>
           </Navbar.Link>
 
-          <div className=" md:absolute left-0 top-full hidden group-hover:flex flex-col mt-2 bg-white shadow-lg">
+          <div className="md:absolute left-0 top-full hidden group-hover:flex flex-col mt-2 bg-white shadow-lg">
             <Link
               to="/PlanningTool/Budget"
               className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
@@ -163,19 +171,19 @@ const Header = () => {
           </Navbar.Link>
           <div className=" md:absolute left-0 top-full hidden group-hover:flex flex-col mt-2 bg-white shadow-lg">
             <Link
-              to="/WeddingVenue/Indoor"
+              to="/WeddingVenue/Banquet"
               className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
             >
               Banquet Halls
             </Link>
             <Link
-              to="/WeddingVenue/Outdoor"
+              to="/WeddingVenue/WeddingResort"
               className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
             >
               Wedding Resorts
             </Link>
             <Link
-              to="/WeddingVenue/Destination"
+              to="/WeddingVenue/Mandapam"
               className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
             >
               Kalyana Mandapams
@@ -194,16 +202,10 @@ const Header = () => {
               Mehndi Artists
             </Link>
             <Link
-              to="/Bride/BridalMakeupArtists"
+              to="/Bride/MakeupArtists"
               className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
             >
               Bridal Makeup Artists
-            </Link>
-            <Link
-              to="/Bride/BridalJewellery"
-              className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-            >
-              Bridal Jewellery
             </Link>
           </div>
         </div>
@@ -213,13 +215,13 @@ const Header = () => {
           </Navbar.Link>
           <div className=" md:absolute left-0 top-full hidden group-hover:flex flex-col mt-2 bg-white shadow-lg">
             <Link
-              to="/Groom/Sherwani"
+              to="/Groom/Dress"
               className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
             >
               Sherwani
             </Link>
             <Link
-              to="/Groom/GroomMakeupArtists"
+              to="/Groom/GroomMakeup"
               className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
             >
               Groom Makeup Artists
