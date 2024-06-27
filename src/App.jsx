@@ -6,11 +6,11 @@ import WeddingVendor from './Pages/WeddingVendor';
 import WeddingVenue from './Pages/WeddingVenue';
 import Bride from './Pages/Bride';
 import Groom from './Pages/Groom';
-import Signin from './Pages/Signin';
-import Login from './Pages/Login';
+import Signup from './Pages/Signup';
 import PlanningTool from './Pages/PlanningTool';
-import Footer from './Components/Footer';
 import WeddingPhotograhers from './Pages/WeddingPhotograhers';
+import FooterCom from './Components/Footer';
+import Signin from './Pages/Signin';
 
 
 
@@ -26,13 +26,13 @@ const App = () => {
     <Route path='/WeddingVenue' element={<WeddingVenue />}/>
     <Route path='/Bride' element={<Bride />}/>
     <Route path='/Groom' element={<Groom />}/>
-    <Route path='/Signin' element={<Signin />}/>
-    <Route path='/Login' element={<Login />} />
+    <Route path='/Signup' element={<Signup />}/>
+    <Route path='/Signin' element={<Signin />} />
     <Route path='//WeddingVendor/WeddingPhotographers' element={<WeddingPhotograhers />} />
     
 
    </Routes>
-   
+   <FooterCom />
    </BrowserRouter>
    
   );
