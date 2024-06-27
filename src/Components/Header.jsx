@@ -70,12 +70,12 @@ const Header = () => {
               <DropdownItem>Profile</DropdownItem>
             
             <DropdownDivider />
-            <Link to="/signin">
+            <Link to="/Signin">
             <DropdownItem>Sign out</DropdownItem>
             </Link>
           </Dropdown>
         ) : (
-          <Link to="/signin">
+          <Link to="/Signin">
             <Button gradientMonochrome="cyan">SignIn</Button>
           </Link>
         )}
