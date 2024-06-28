@@ -15,7 +15,6 @@ import {
 } from "flowbite-react";
 import { useDispatch, useSelector } from "react-redux";
 import { toggleTheme } from "../Redux/Slice/themeSlice";
-import { BiBold } from "react-icons/bi";
 import { signOutSuccess } from "../Redux/Slice/userSlice";
 
 

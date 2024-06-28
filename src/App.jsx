@@ -6,11 +6,9 @@ import WeddingVendor from './Pages/WeddingVendor';
 import WeddingVenue from './Pages/WeddingVenue';
 import Bride from './Pages/Bride';
 import Groom from './Pages/Groom';
-import Signup from './Pages/Signup';
 import PlanningTool from './Pages/PlanningTool';
 import WeddingPhotograhers from './Pages/WeddingPhotograhers';
 import FooterCom from './Components/Footer';
-import Signin from './Pages/Signin';
 import WeddingVideographers from './Pages/WeddingVideographers';
 import WeddingPlanners from './Pages/WeddingPlanners';
 import Caterers from './Pages/Caterers';
@@ -21,6 +19,8 @@ import MehndiArtists from './Pages/MehndiArtists';
 import MakeupArtists from './Pages/MakeupArtists';
 import Dress from './Pages/Dress';
 import GroomMakeup from './Pages/GroomMakeup';
+import Signup from './Pages/Signup';
+import Signin from './Pages/Signin';
 
 
 
