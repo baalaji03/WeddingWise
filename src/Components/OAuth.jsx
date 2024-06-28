@@ -2,7 +2,7 @@ import { Button } from "flowbite-react";
 import React from "react";
 import { AiFillGoogleCircle } from "react-icons/ai";
 import { signInFailure, signInSuccess } from "../Redux/Slice/userSlice";
-import { GoogleAuthProvider, getAuth, signInWithPopup } from "firebase/auth";
+import { GoogleAuthProvider, getAuth, signInWithPopup, signInWithRedirect } from "firebase/auth";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { app } from "../fireBase";
@@ -16,6 +16,11 @@ const OAuth = () => {
     const provider = new GoogleAuthProvider();
     provider.setCustomParameters({ prompt:"select_account"});
     try {
+        const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
+        if (isMobile) {
+          await signInWithRedirect(auth, provider);
+        } else {
       const result = await signInWithPopup(auth, provider);
       const res = await fetch("http://localhost:5000/api/auth/google", {
         method: "POST",
@@ -27,7 +32,7 @@ const OAuth = () => {
           email: result.user.email,
           profilePic: result.user.photoURL,
         }),
-      });
+      });}
       const data = await res.json();
       if (res.ok) {
         
