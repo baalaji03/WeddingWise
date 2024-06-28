@@ -90,7 +90,7 @@ const Header = () => {
         )}
 
         <Button
-          className="w-12 h-10 hidden sm:inline"
+          className="w-12 h-10  sm:inline"
           gradientMonochrome="cyan"
           outline
           pill
