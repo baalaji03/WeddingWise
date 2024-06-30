@@ -1,6 +1,7 @@
 import { Alert, Button, TextInput } from 'flowbite-react';
 import React, { useState } from 'react';
 import { AiOutlineSearch } from "react-icons/ai";
+import { useNavigate } from 'react-router-dom';
 
 
 
@@ -9,49 +10,43 @@ import { AiOutlineSearch } from "react-icons/ai";
 const Home = () => {
    
 
-    const [searchTerm, setSearchTerm] = useState('');
-    
-
-    const handleSearch = (event) => {
-      event.preventDefault();
-
-      if (searchTerm.toLowerCase() === 'budget' ) {
-        window.location.href = '/budget'; 
-      } else if (searchTerm.toLowerCase() === 'wedding photographer' || searchTerm.toLowerCase() === 'photographer' || searchTerm.toLowerCase() === 'photo') {
-        window.location.href = '/WeddingVendor/WeddingPhotographers'; 
-      } else if (searchTerm.toLowerCase() === 'wedding videographer' || searchTerm.toLowerCase() === 'videographer' || searchTerm.toLowerCase() === 'video') {
-        window.location.href = '/WeddingVendor/Weddingvideographers'; 
-      } else if (searchTerm.toLowerCase() === 'caterers' || searchTerm.toLowerCase() === 'catering') {
-        window.location.href = '/WeddingVendor/Caterers'; 
-      } else if (searchTerm.toLowerCase() === 'wedding planners' || searchTerm.toLowerCase() === 'planners') {
-        window.location.href = '/WeddingVendor/WeddingPlanners'; 
-      } else if (searchTerm.toLowerCase() === 'banquet' ) {
-        window.location.href = '/WeddingVenue/Banquet'; 
-      } else if (searchTerm.toLowerCase() === 'wedding resort' || searchTerm.toLowerCase() === 'resort') {
-        window.location.href = '/WeddingVenue/WeddingResort'; 
-      } else if (searchTerm.toLowerCase() === 'mandapam' || searchTerm.toLowerCase() === 'mahal' || searchTerm.toLowerCase() === 'marriage hall') {
-        window.location.href = '/WeddingVenue/Mandapam'; 
-      } else if (searchTerm.toLowerCase() === 'mehndi artists' || searchTerm.toLowerCase() === 'mehndi') {
-        window.location.href = '/Bride/MehndiArtists'; 
-      } else if (searchTerm.toLowerCase() === 'makeup artists' || searchTerm.toLowerCase() === 'makeup') {
-        window.location.href = '/Bride/MakeupArtists'; 
-      } else if (searchTerm.toLowerCase() === 'dress' || searchTerm.toLowerCase() === 'sherwani') {
-        window.location.href = '/Groom/Dress'; 
-      } else if (searchTerm.toLowerCase() === 'makeup' || searchTerm.toLowerCase() === 'groom makeup') {
-        window.location.href = '/Groom/GroomMakeup'; 
-      }
-      
-      
-      else {
-        alert(`🚫🚫 ErrorMessage 🚫🚫 
-                
-            Searched Term not Found ❌❌ `)
-        window.location.href = `/`;
-        
-      }
-    };
-
-    
+  const handleSearch = (event) => {
+    event.preventDefault();
+    const navigate = useNavigate();
+  
+    const searchTermLower = searchTerm.toLowerCase();
+  
+    if (searchTermLower === 'budget') {
+      navigate('/budget');
+    } else if (searchTermLower === 'wedding photographer' || searchTermLower === 'photographer' || searchTermLower === 'photo') {
+      navigate('/WeddingVendor/WeddingPhotographers');
+    } else if (searchTermLower === 'wedding videographer' || searchTermLower === 'videographer' || searchTermLower === 'video') {
+      navigate('/WeddingVendor/Weddingvideographers');
+    } else if (searchTermLower === 'caterers' || searchTermLower === 'catering') {
+      navigate('/WeddingVendor/Caterers');
+    } else if (searchTermLower === 'wedding planners' || searchTermLower === 'planners') {
+      navigate('/WeddingVendor/WeddingPlanners');
+    } else if (searchTermLower === 'banquet') {
+      navigate('/WeddingVenue/Banquet');
+    } else if (searchTermLower === 'wedding resort' || searchTermLower === 'resort') {
+      navigate('/WeddingVenue/WeddingResort');
+    } else if (searchTermLower === 'mandapam' || searchTermLower === 'mahal' || searchTermLower === 'marriage hall') {
+      navigate('/WeddingVenue/Mandapam');
+    } else if (searchTermLower === 'mehndi artists' || searchTermLower === 'mehndi') {
+      navigate('/Bride/MehndiArtists');
+    } else if (searchTermLower === 'makeup artists' || searchTermLower === 'makeup') {
+      navigate('/Bride/MakeupArtists');
+    } else if (searchTermLower === 'dress' || searchTermLower === 'sherwani') {
+      navigate('/Groom/Dress');
+    } else if (searchTermLower === 'makeup' || searchTermLower === 'groom makeup') {
+      navigate('/Groom/GroomMakeup');
+    } else {
+      alert(`🚫🚫 ErrorMessage 🚫🚫 
+               
+           Searched Term not Found ❌❌ `);
+      navigate('/');
+    }
+  };
     
     return (
         <div>
