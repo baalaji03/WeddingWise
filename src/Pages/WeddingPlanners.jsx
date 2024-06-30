@@ -24,13 +24,13 @@ const [isOpen, setIsOpen] = useState(false);
     return (
         <div>
 <div class=" flex flex-col lg:flex-row w-full h-max max-w-full  bg-fuchsia-400 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-    <a href="#">
+    <Link to="#">
         <img class="p-8 rounded-t-lg h-96 max-w-96" src="https://cdn0.weddingwire.in/vendor/0771/original/1280/jpeg/0j1a0351_15_70771-168882306236739.webp" alt="Photography image" />
-    </a>
+    </Link>
     <div class="px-5 pb-5 ">
-        <a href="#">
+        <Link to="#">
             <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white mt-7">Bonvera</h5>
-        </a>
+        </Link>
         <br />
         <p>Bonvera, located in Noida, is a wedding planning company with a team of lively and entertaining event planners. They are dedicated to creating and designing memorable events with passion and commitment. The youthful minds at Bonvera bring the trendiest ideas to your wedding celebrations, involving you in every decision as they understand the significance of your big day. Putting their heart and soul into each wedding planning endeavour, Bonvera is the perfect choice for all your wedding planning needs. </p>
         <div class="flex items-center mt-24">
@@ -102,13 +102,13 @@ const [isOpen, setIsOpen] = useState(false);
 </div>
 
 <div class=" flex flex-col lg:flex-row w-full h-max max-w-full   bg-fuchsia-400 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-    <a href="#">
+    <Link to="#">
         <img class="p-8 rounded-t-lg h-96 max-w-96" src="https://cdn0.weddingwire.in/vendor/7413/3_2/1280/jpg/copy-of-img-4232_15_197413-171171308384317.webp" alt="Photography image" />
-    </a>
+    </Link>
     <div class="px-5 pb-5 ">
-        <a href="#">
+        <Link to="#">
             <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white mt-7">Watermark Event </h5>
-        </a>
+        </Link>
         <br />
         <p>Watermark Event is an event management company based out of the city of Kochi and it is one of the most sought after event planning companies in the city that is availed by the couples and families who look for perfection on their big day. The wedding ceremonies are not just one but many and for each ceremony to be as grand as the other and to make sure that they all have smooth transitions, you will need professional assistance and Watermark Event Solutions Llp is the one-stop solution. </p>
         <div class="flex items-center mt-24">
@@ -177,13 +177,13 @@ const [isOpen, setIsOpen] = useState(false);
 </div>
 
 <div class=" flex flex-col lg:flex-row w-full h-max max-w-full  bg-fuchsia-400 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-    <a href="#">
+    <Link to="#">
         <img class="p-8 rounded-t-lg h-96 max-w-96" src="https://cdn0.weddingwire.in/vendor/7676/original/1280/jpg/weddingplanner-modern-events-weddingdecor-3_15_457676-169873394855555.webp" alt="Photography image" />
-    </a>
+    </Link>
     <div class="px-5 pb-5 ">
-        <a href="#">
+        <Link to="#">
             <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white mt-7">Modern Events</h5>
-        </a>
+        </Link>
         <br />
         <p>Modern Events is a wedding planning company based in the city of Goa. They can offer you the best in class assistance and plan each of your wedding functions most delightfully. Weddings in India are a lavish celebration with many different functions spread over weeks. If you are looking for a professional team of wedding planners who can be assured of giving you the perfect wedding assistance, then you should opt for Modern Events. They have been in the business for years and are a self-motivated team of individuals who can offer you the best wedding packages. </p>
         <div class="flex items-center mt-24">

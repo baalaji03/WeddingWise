@@ -24,13 +24,13 @@ const [isOpen, setIsOpen] = useState(false);
     return (
         <div>
 <div class=" flex flex-col lg:flex-row w-full h-max max-w-full bg-fuchsia-400 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-    <a href="#">
+    <Link to="#">
         <img class="p-8 rounded-t-lg h-96 max-w-96" src="https://cdn0.weddingwire.in/vendor/1791/3_2/1280/jpeg/neelams-grande-render-1-2_15_71791-170792023653514.webp" alt="Photography image" />
-    </a>
+    </Link>
     <div class="px-5 pb-5 ">
-        <a href="#">
+        <Link to="#">
             <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white mt-7">Neelam The Grand</h5>
-        </a>
+        </Link>
         <br />
         <p>Neelam The Grand stands as a remarkable architectural marvel in Goa, boasting a contemporary ambience that captivates visitors. Infused with the charm of old Goan Portuguese hospitality, the resort exudes a unique allure reflected in the demeanour of its staff and the management's approach. Every member of the team is meticulously trained and consistently courteous, ensuring they cater to all your needs and desires, particularly during wedding functions and ceremonies. Your special occasions are handled with utmost care and attention, promising an unforgettable experience immersed in the rich cultural heritage of Goa. </p>
         <div class="flex items-center mt-24">
@@ -102,13 +102,13 @@ const [isOpen, setIsOpen] = useState(false);
 </div>
 
 <div class=" flex flex-col lg:flex-row w-full h-max max-w-full   bg-fuchsia-400 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-    <a href="#">
+    <Link to="#">
         <img class="p-8 rounded-t-lg h-96 max-w-96" src="https://cdn0.weddingwire.in/vendor/8754/3_2/1280/jpeg/whatsapp-image-2023-01-13-at-4-26-43-pm_15_58754-167379000694836.webp" alt="Photography image" />
-    </a>
+    </Link>
     <div class="px-5 pb-5 ">
-        <a href="#">
+        <Link to="#">
             <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white mt-7">Aquarius Resort </h5>
-        </a>
+        </Link>
         <br />
         <p>Aquarius Resort is a hotel in Pune. It is located near the Khadakwasla Dam and the Sinhgad Fort, known for their world-class facilities and efficient services. Aquarius Resort will be an ideal location for your biggest event with its wonderful ambience and great hospitality. It is one of Pune's leading hotels for business and leisure travellers and a fabulous destination for auspicious ceremonies. With the decor designing and venue decoration as per your choices and wants, their hardworking team will ensure that your wedding is the grandest and most memorable event of your life. </p>
         <div class="flex items-center mt-24">
@@ -177,13 +177,13 @@ const [isOpen, setIsOpen] = useState(false);
 </div>
 
 <div class=" flex flex-col lg:flex-row w-full h-max max-w-full bg-fuchsia-400 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-    <a href="#">
+    <Link to="#">
         <img class="p-8 rounded-t-lg h-96 max-w-96" src="https://cdn0.weddingwire.in/vendor/4331/original/1280/jpg/utthan-8_15_244331-169098468264635.webp" alt="Photography image" />
-    </a>
+    </Link>
     <div class="px-5 pb-5 ">
-        <a href="#">
+        <Link to="#">
             <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white mt-7">Hotel Millennium Inn</h5>
-        </a>
+        </Link>
         <br />
         <p>Hotel Millennium Inn is a venue located in the city of Ghaziabad that can be an ideal location to host any of your special occasions, especially your wedding or any of its other related functions, which you can be assured would be planned and hosted with perfection and in the most beautiful manner. Choosing the right venue is one of the most critical choices a bride and groom would make for their wedding. It speaks volumes about the kind of celebrations you would be having and binds all of your festivity together.</p>
         <div class="flex items-center mt-24">

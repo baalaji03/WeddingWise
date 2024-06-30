@@ -24,13 +24,13 @@ const [isOpen, setIsOpen] = useState(false);
     return (
         <div>
 <div class=" flex flex-col lg:flex-row w-full h-max max-w-full bg-fuchsia-400 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-    <a href="#">
+    <Link to="#">
         <img class="p-8 rounded-t-lg h-96 max-w-96" src="https://cdn0.weddingwire.in/vendor/8273/3_2/1280/jpg/660a9150-77d8-43d6-9c1b-473068c4bd82_15_188273.webp" alt="Photography image" />
-    </a>
+    </Link>
     <div class="px-5 pb-5 ">
-        <a href="#">
+        <Link to="#">
             <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white mt-7">RS Mahal</h5>
-        </a>
+        </Link>
         <br />
         <p>RS Mahal is a banquet hall located in Nagarbhavi which is situated in West Bangalore. The wedding is a great occasion among the most valuable and unique events in a person's life and it is imperative that everything is perfect on this fantastic day. Ideating and organising an ideal wedding also incorporate picking the right venue according to your prerequisites. </p>
         <div class="flex items-center mt-24">
@@ -102,13 +102,13 @@ const [isOpen, setIsOpen] = useState(false);
 </div>
 
 <div class=" flex flex-col lg:flex-row w-full h-max max-w-full   bg-fuchsia-400 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-    <a href="#">
+    <Link to="#">
         <img class="p-8 rounded-t-lg h-96 max-w-96" src="https://cdn0.weddingwire.in/vendor/8602/3_2/960/jpg/weddingvenues-bhushan-banquet-hall-banquethall-3_15_428602-166737477526098.webp" alt="Photography image" />
-    </a>
+    </Link>
     <div class="px-5 pb-5 ">
-        <a href="#">
+        <Link to="#">
             <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white mt-7">Riya Hall </h5>
-        </a>
+        </Link>
         <br />
         <p>Riya Hall is a beautiful wedding venue located in Koregaon, Mumbai. Look no further if you are looking for a banquet hall while planning your wedding in town. The decor and ambience of the place offer a perfect blend of simplicity and comfort. It would be best if you definitely had the ideal venue to organise a grand and flawless wedding. If you are looking for a great platform to host any of your wedding functions, then Bhushan Banquet Hal is the choice that you should definitely make.</p>
         <div class="flex items-center mt-24">
@@ -177,13 +177,13 @@ const [isOpen, setIsOpen] = useState(false);
 </div>
 
 <div class=" flex flex-col lg:flex-row w-full h-max max-w-full  bg-fuchsia-400 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-    <a href="#">
+    <Link to="#">
         <img class="p-8 rounded-t-lg h-96 max-w-96" src="https://cdn0.weddingwire.in/vendor/6803/original/1280/jpg/banquet-hall-hyath-mahal-banquet-hall-1_15_356803-161365567526515.webp" alt="Photography image" />
-    </a>
+    </Link>
     <div class="px-5 pb-5 ">
-        <a href="#">
+        <Link to="#">
             <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white mt-7">KBS Mahal</h5>
-        </a>
+        </Link>
         <br />
         <p>KBS Mahal is a wedding venue based in Chennai. The management team and the service staff is only there to assist and help you, as they provide you with full flexibility to host your event your way. With numerous picture-perfect and pocket-friendly wedding planning packages, your dreams are met by a team of dedicated, professional and motivated individuals loving what they do. You can host all of your special occasions with ease and comfort at Hyath Mahal and be assured that they would offer you all the facilities and amenities that you might need to host all of your functions with ease.</p>
         <div class="flex items-center mt-24">

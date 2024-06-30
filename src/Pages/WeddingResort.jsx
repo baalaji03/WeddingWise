@@ -24,13 +24,13 @@ const [isOpen, setIsOpen] = useState(false);
     return (
         <div>
 <div class=" flex flex-col lg:flex-row w-full h-max max-w-full  bg-fuchsia-400 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-    <a href="#">
+    <Link to="#">
         <img class="p-8 rounded-t-lg h-96 max-w-96" src="https://cdn0.weddingwire.in/vendor/0370/original/1280/jpg/10408103-576198899156170-8271503873358107258-n_15_80370.webp" alt="Photography image" />
-    </a>
+    </Link>
     <div class="px-5 pb-5 ">
-        <a href="#">
+        <Link to="#">
             <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white mt-7">Holiday Inn Resort</h5>
-        </a>
+        </Link>
         <br />
         <p> </p>Holiday Inn Resort Goa has many event spaces which can accommodate 1000 guests in total. They offer you with modern chic amenities and high-class facilities so as to ensure that you and your guests have a great experience and also are happy in the comfort and luxury offered by the hotel resort. Holiday Inn Resort Goa has a management team and staff who attend all your needs and demands and make sure to fulfil all your expectations.
         <div class="flex items-center mt-24">
@@ -102,13 +102,13 @@ const [isOpen, setIsOpen] = useState(false);
 </div>
 
 <div class=" flex flex-col lg:flex-row w-full h-max max-w-full  bg-fuchsia-400 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-    <a href="#">
+    <Link to="#">
         <img class="p-8 rounded-t-lg h-96 max-w-96" src="https://cdn0.weddingwire.in/vendor/5438/3_2/1280/jpeg/weddingdecor56_15_75438-170298753425646.webp" alt="Photography image" />
-    </a>
+    </Link>
     <div class="px-5 pb-5 ">
-        <a href="#">
+        <Link to="#">
             <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white mt-7">Casa Dream </h5>
-        </a>
+        </Link>
         <br />
         <p>Casa Dream, perched atop the majestic Himalayan hilltop, beckons couples to embark on a journey of love in an ethereal setting. Unveiling the importance of finding the perfect wedding venue, Casa Dream emerges as a haven that blends inspiration, romance, and spirituality, making it an idyllic destination for your nuptial celebrations. </p>
         <div class="flex items-center mt-24">
@@ -177,13 +177,13 @@ const [isOpen, setIsOpen] = useState(false);
 </div>
 
 <div class=" flex flex-col lg:flex-row w-full h-max max-w-full  bg-fuchsia-400 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-    <a href="#">
+    <Link to="#">
         <img class="p-8 rounded-t-lg h-96 max-w-96" src="https://cdn0.weddingwire.in/vendor/0878/3_2/1280/jpg/wedding-venue-welcomheritage-santa-roza-kasauli-lawn_15_460878-170486538119784.webp" alt="Photography image" />
-    </a>
+    </Link>
     <div class="px-5 pb-5 ">
-        <a href="#">
+        <Link to="#">
             <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white mt-7">Ahuja Resort</h5>
-        </a>
+        </Link>
         <br />
         <p>Ahuja Resort, situated in Lonavala near Mumbai and Pune, stands as a dedicated wedding resort catering to celebrations in these prominent cities. Recognising the challenges in choosing the perfect venue, the resort endeavours to simplify the process by providing trust and professionalism in every service. For those seeking an affordable yet exceptional platform, Ahuja Resort is the ideal choice. With a versatile banquet hall suitable for various occasions, the resort's team is committed to making your wedding grand and eventful.</p>
         <div class="flex items-center mt-24">

@@ -23,13 +23,13 @@ const [isOpen, setIsOpen] = useState(false);
     return (
         <div>
 <div class=" flex flex-col lg:flex-row w-full h-max max-w-full  bg-fuchsia-400 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-    <a href="#">
+    <Link to="#">
         <img class="p-8 rounded-t-lg h-96 max-w-96" src="https://cdn0.weddingwire.in/vendor/6081/original/1280/jpg/wedding-videography-studio-nine-films-couple-shot-14_15_316081-159284141220449.webp" alt="Photography image" />
-    </a>
+    </Link>
     <div class="px-5 pb-5 ">
-        <a href="#">
+        <Link to="#">
             <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white mt-7">Dream Weds</h5>
-        </a>
+        </Link>
         <br />
         <p>Dream Wedz is a Bangalore-based wedding cinematography service, led by the talented Amal Roy. Dream Wedz specialises in creating wonderful cinematic wedding films. It has a team of professional cinematographers, skilled and focused on high profile and live event productions. By capturing your important moments, they turn your wedding into a beautiful story, creatively blending latest technology, and expertise. </p>
         <div class="flex items-center mt-24">
@@ -101,13 +101,13 @@ const [isOpen, setIsOpen] = useState(false);
 </div>
 
 <div class=" flex flex-col lg:flex-row w-full h-max max-w-full bg-fuchsia-400 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-    <a href="#">
+    <Kink to="#">
         <img class="p-8 rounded-t-lg h-96 max-w-96" src="https://cdn0.weddingwire.in/vendor/0241/3_2/1280/jpg/1s8a4149-edit_15_70241_v1.webp" alt="Photography image" />
-    </a>
+    </Link>
     <div class="px-5 pb-5 ">
-        <a href="#">
+        <Link to="#">
             <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white mt-7">Rangresa Pictures</h5>
-        </a>
+        </Link>
         <br />
         <p>Rangresa Pictures is a wedding videography and photography company based in the city of Mumbai. Your wedding videos are your memory capsules that will never let you run out of moments that you lived on your special occasion. Rangresa Pictures is here to capture all that you experience as a bride & groom. They are located in Mumbai and are ready to travel to your location and give you an amazing photography experience. So if you are looking for a company that plans each wedding function with full perfection and ease you should opt for them. </p>
         <div class="flex items-center mt-24">
@@ -176,13 +176,13 @@ const [isOpen, setIsOpen] = useState(false);
 </div>
 
 <div class="flex flex-col lg:flex-row w-full h-max max-w-full  bg-fuchsia-400 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-    <a href="#">
+    <Link to="#">
         <img class="p-8 rounded-t-lg h-96 max-w-96" src="https://cdn0.weddingwire.in/vendor/1029/original/1280/jpg/srp09902_15_291029-171386715738866.webp" alt="Photography image" />
-    </a>
+    </Link>
     <div class="px-5 pb-5 ">
-        <a href="#">
+        <Link to="#">
             <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white mt-7">Green Studio</h5>
-        </a>
+        </Link>
         <br />
         <p>Studio Nine Films is a wedding videography company based in the city of Ludhiana. Videos are an ideal approach of looking back at all the lovely moments and relieving all the memories that you share with your near and dear ones They bring back all those feelings and joy and make you a little emotional. Determining an appropriate cinematography company that can make a gorgeous collection of memories for you and all your loved ones is now very simple. Studio Nine Films gives you a complete collection of reminiscences and shoots your bright moments on your wedding day with full excitement. </p>
         <div class="flex items-center mt-24">

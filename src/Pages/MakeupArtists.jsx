@@ -24,13 +24,13 @@ const [isOpen, setIsOpen] = useState(false);
     return (
         <div>
 <div class=" flex flex-col lg:flex-row w-full h-max max-w-full  bg-fuchsia-400 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-    <a href="#">
+    <Link to="#">
         <img class="p-8 rounded-t-lg h-96 max-w-96" src="https://cdn0.weddingwire.in/vendor/7145/original/1280/jpeg/img-7570_15_207145-170815274118159.webp" alt="Photography image" />
-    </a>
+    </Link>
     <div class="px-5 pb-5 ">
-        <a href="#">
+        <Link to="#">
             <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white mt-7">Ashwini Makeup Artist</h5>
-        </a>
+        </Link>
         <br />
         <p>Ashwini Makeup Artist is a famous bridal makeup service provider based in Mumbai. For every bride-to-be, it becomes imperative to look stunning for their special day. Makeup is one of the most important aspects of a bridal makeover; hence, it must be done by an expert. Therefore, if you are looking for a team of makeup artists who offer you a wide range of services for all your wedding functions, then Ashwini Makeup Artist is the choice that you should make. She is someone who has turned her passion into a profession and believes in bringing out natural beauty in her brides. </p>
         <div class="flex items-center mt-24">
@@ -102,13 +102,13 @@ const [isOpen, setIsOpen] = useState(false);
 </div>
 
 <div class=" flex flex-col lg:flex-row w-full h-max max-w-full  bg-fuchsia-400 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-    <a href="#">
+    <Link to="#">
         <img class="p-8 rounded-t-lg h-96 max-w-96" src="https://cdn0.weddingwire.in/vendor/1523/original/1280/jpg/87287680-501495344115338-1339884282860011520-o_15_231523-158831127988468.webp" alt="Photography image" />
-    </a>
+    </Link>
     <div class="px-5 pb-5 ">
-        <a href="#">
+        <Link to="#">
             <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white mt-7">Dhanu Gupta Makeovers </h5>
-        </a>
+        </Link>
         <br />
         <p>Dhanu Gupta Makeovers is a talented and exquisite makeup artist based out of Delhi. Makeup is that one feature which stays with you when the rest of thing start fading and makes you feel enlighted and feel glam and if you are planning a wedding ceremony then it becomes important to opt for a good and amazing makeup artist who can upgrade your looks to the fullest. If you are planning one such function and looking for one such person then Dhanu Gupta Makeovers can help you in availing top-notched beauty services with ease and happiness. </p>
         <div class="flex items-center mt-24">
@@ -177,13 +177,13 @@ const [isOpen, setIsOpen] = useState(false);
 </div>
 
 <div class=" flex flex-col lg:flex-row w-full h-max max-w-full bg-fuchsia-400 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-    <a href="#">
+    <Link to="#">
         <img class="p-8 rounded-t-lg h-96 max-w-96" src="https://lh4.googleusercontent.com/uWbGQtbnkkRA0i-zDNfnTDDd1fMwIFfgfIn3d2k8oQy0AFtiJ5MI2_ph1nGiwTj--BUEqzUpBzgUlnII3Tmc0hteyf5Ewtzf4XR2Rxb8mXFx8Z8UfbKlIoXhcJ0gWPLbIe_m5Wvtemy4LzUMyoX4IIU" alt="Photography image" />
-    </a>
+    </Link>
     <div class="px-5 pb-5 ">
-        <a href="#">
+        <Link to="#">
             <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white mt-7">Sakshi Makeup Artistry</h5>
-        </a>
+        </Link>
         <br />
         <p>Sakshi Makeup Artistry, a seasoned professional in makeup and hairstyling, operates from Lucknow. With meticulous attention to detail, every look she creates is tailored to the client's unique skin type, texture, and preferences, ensuring a seamless and flattering result. Her refined makeup techniques and exquisite hairstyling have garnered immense praise from satisfied clients, particularly for pre-bridal and bridal functions. Offering flexibility and convenience, Sakshi is prepared to travel nationwide to cater to clients at their preferred venues, delivering her expert beauty, makeup, and hairstyling services with finesse and dedication.</p>
         <div class="flex items-center mt-24">

@@ -24,13 +24,13 @@ const [isOpen, setIsOpen] = useState(false);
     return (
         <div>
 <div class="flex flex-col lg:flex-row w-full h-max max-w-full  bg-fuchsia-400 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-    <a href="#">
+    <Link to="#">
         <img class="p-8 rounded-t-lg h-96 max-w-96" src="https://cdn0.weddingwire.in/vendor/1053/original/1280/jpg/evening-events.webp" alt="Photography image" />
-    </a>
+    </Link>
     <div class="px-5 pb-5 ">
-        <a href="#">
+        <Link to="#">
             <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white mt-7">Miracle Wedding Cards</h5>
-        </a>
+        </Link>
         <br />
         <p>Miracle Wedding Cards is a company based in the city of Chennai that specialises in premium and customised wedding invitation cards that you can choose for the biggest day in your life. Weddings are the new beginnings that are filled with love, compassion and festivities which marks the most special day in their life which they would remember for life. The first step of making such a grand event much more unique and everlasting is choosing the right kind of wedding invitation which would speak volumes about the kind of celebrations that you would be having. </p>
         <div class="flex items-center mt-24">
@@ -102,13 +102,13 @@ const [isOpen, setIsOpen] = useState(false);
 </div>
 
 <div class=" flex flex-col lg:flex-row w-full h-max max-w-full   bg-fuchsia-400 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-    <a href="#">
+    <Link to="#">
         <img class="p-8 rounded-t-lg h-96 max-w-96" src="https://cdn0.weddingwire.in/vendor/6579/original/1280/jpg/22550038-1509731929116881-5261351940483134530-n_15_186579.webp" alt="Photography image" />
-    </a>
+    </Link>
     <div class="px-5 pb-5 ">
-        <a href="#">
+        <Link to="#">
             <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white mt-7">Wedding Invitation Cards </h5>
-        </a>
+        </Link>
         <br />
         <p>Wedding Invitation Cards Chennai is a wedding card provider based in the city of Chennai. Wedding invitations are the beautiful and creative piece of information that first break the news of your wedding. It is imperative that if it is the first thing which your guests would be seeing in terms of your wedding preparations, it should be something unique and beautiful so that it can make a lasting impact on them, just like your wedding. If you are looking for a vendor who can provide you with that, then Wedding Invitation Cards Chennai is a name you should consider.</p>
         <div class="flex items-center mt-24">
@@ -177,13 +177,13 @@ const [isOpen, setIsOpen] = useState(false);
 </div>
 
 <div class=" flex flex-col lg:flex-row w-full h-max max-w-full  bg-fuchsia-400 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-    <a href="#">
+    <Link to="#">
         <img class="p-8 rounded-t-lg h-96 max-w-96" src="https://cdn0.weddingwire.in/vendor/6579/3_2/960/jpg/22492004-1509727852450622-8400186164059087962-n_15_186579.webp" alt="Photography image" />
-    </a>
+    </Link>
     <div class="px-5 pb-5 ">
-        <a href="#">
+        <Link to="#">
             <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white mt-7">Shankesvar Cards</h5>
-        </a>
+        </Link>
         <br />
         <p>Shankesvar Cards is an invitation company located in Mylapore which is situated in the city of Chennai. Offering a wide array of wedding card designs and patterns, they are a one-stop solution for each of your requirements for your wedding cards. They know the fact that your card is the main thing that connects with your guests and offers them your warm welcome to the great event and therefore, they guarantee to make it the best for you. If you are searching for a decent wedding card company to design and print astounding cards for you, then Shankesvar Cards is the go-to option for you.</p>
         <div class="flex items-center mt-24">
