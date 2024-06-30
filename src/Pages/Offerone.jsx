@@ -5,8 +5,8 @@ import {  Tooltip, TextInput } from 'flowbite-react';
 
 
 
-const Caterers = () => {
-    const [text] = useState('+918976548436');
+const Offerone = () => {
+    const [text] = useState('+91996022121');
   const [copied, setCopied] = useState(false);
 
   const handleCopy = () => {
@@ -23,6 +23,86 @@ const [isOpen, setIsOpen] = useState(false);
   };
     return (
         <div>
+<div class=" flex flex-col lg:flex-row w-full h-max max-w-full  bg-fuchsia-400 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+    <a href="#">
+        <img class="p-8 rounded-t-lg h-96 max-w-96" src="https://crystallinestudio.com/blogmoreimg/13_crystalline.jpg" alt="Photography image" />
+    </a>
+    <div class="px-5 pb-5 ">
+        <a href="#">
+            <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white mt-7">Green Studio</h5>
+        </a>
+        <br />
+        <p>The Green Studio Photography is a distinguished wedding photographer based in Panchkula. Selecting the right wedding photographer is paramount, and Ankush Khurana Photography recognises the significance of preserving every cherished moment in your love story. With a dedication to excellence, they bring a unique blend of creativity and expertise to ensure your wedding day is immortalised in breathtaking visuals. </p>
+        <div class="flex items-center mt-24">
+            <div class="flex items-center space-x-1 rtl:space-x-reverse">
+                <svg class="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                </svg>
+                <svg class="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                </svg>
+                <svg class="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                </svg>
+                <svg class="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                </svg>
+                <svg class="w-4 h-4 text-gray-200 dark:text-gray-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                </svg>
+            </div>
+            <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ms-3">5.0</span>
+        </div>
+        <br />
+        <div class="flex items-center justify-between" >
+            <span class="text-xl text-gray-900 font-light dark:text-white">Rs.50,000</span>
+             
+
+      
+  
+  </div>
+
+        </div>
+</div>
+
+<div class=" flex flex-col lg:flex-row w-full h-max max-w-full bg-fuchsia-400 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+    <a href="#">
+        <img class="p-8 rounded-t-lg h-96 max-w-96" src="https://cdn0.weddingwire.in/vendor/8273/3_2/1280/jpg/660a9150-77d8-43d6-9c1b-473068c4bd82_15_188273.webp" alt="Photography image" />
+    </a>
+    <div class="px-5 pb-5 ">
+        <a href="#">
+            <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white mt-7">RS Mahal</h5>
+        </a>
+        <br />
+        <p>RS Mahal is a banquet hall located in Nagarbhavi which is situated in West Bangalore. The wedding is a great occasion among the most valuable and unique events in a person's life and it is imperative that everything is perfect on this fantastic day. Ideating and organising an ideal wedding also incorporate picking the right venue according to your prerequisites. </p>
+        <div class="flex items-center mt-24">
+            <div class="flex items-center space-x-1 rtl:space-x-reverse">
+                <svg class="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                </svg>
+                <svg class="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                </svg>
+                <svg class="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                </svg>
+                <svg class="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                </svg>
+                <svg class="w-4 h-4 text-gray-200 dark:text-gray-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                </svg>
+            </div>
+            <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ms-3">5.0</span>
+        </div>
+        <br />
+        <div class="flex items-center justify-between" >
+            <span class="text-xl text-gray-900 font-light dark:text-white">From Rs.100000</span>
+          
+        </div>
+    </div>
+</div>
+
 <div class=" flex flex-col lg:flex-row w-full h-max max-w-full  bg-fuchsia-400 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <a href="#">
         <img class="p-8 rounded-t-lg h-96 max-w-96" src="https://www.bellapersonalchef.com/wp-content/uploads/2022/09/A-Look-at-Our-4-Most-Popular-Catering-Services-1080x1080-image1-632883052fafd.jpg" alt="Photography image" />
@@ -57,135 +137,24 @@ const [isOpen, setIsOpen] = useState(false);
         <div class="flex items-center justify-between" >
             <span class="text-xl text-gray-900 font-light dark:text-white">From 200</span>
     
-    <Button onClick={toggleModal} className='ml-80'>
-        Request Pricing
-      </Button>
-      <Modal show={isOpen} onClose={toggleModal} >
-        <ModalHeader className='mb-6  bg-green-500'>
-          Request Details
-        </ModalHeader>
-        <ModalBody>
-        <div className="relative flex items-center space-x-2 ring-offset-blue-600">
-      <TextInput
-        type="text"
-        value={text}
-        className="flex-grow bg-slate-500 font-bold"
-      />
-      <Button 
-        onClick={handleCopy}
-        color="primary"
-        className="px-4 py-2 text-white bg-blue-600 rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50"
-      >
-        Copy
-      </Button>
-      {copied && (
-        <Tooltip content="Copied!" placement="top" open>
-          <span className="absolute -top-8 left-1/2 transform -translate-x-1/2 bg-gray-800 text-white text-xs rounded px-2 py-1">
-            Copied!
-          </span>
-        </Tooltip>
-      )}
-    </div>
-        </ModalBody>
-        <ModalFooter>
-          <Button onClick={toggleModal}>
-            Close
-          </Button>
-          
-        </ModalFooter>
-      </Modal>
-    
-  
-  </div>
-
-        </div>
-</div>
-
-<div class=" flex flex-col lg:flex-row w-full h-max max-w-full   bg-fuchsia-400 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-    <a href="#">
-        <img class="p-8 rounded-t-lg h-96 max-w-96" src="https://cdn0.weddingwire.in/vendor/5416/3_2/640/jpg/catering-for-your-event_v8.jpeg" alt="Photography image" />
-    </a>
-    <div class="px-5 pb-5 ">
-        <a href="#">
-            <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white mt-7">Field Caterers </h5>
-        </a>
-        <br />
-        <p>Field Caterers, a catering and hospitality company in Chennai has a select team of cooks and service staff which make sure that you and your guests have a great dining experience. They understand the needs and demands of the client and their guests at the event and offer you great meals that will leave you asking for more. Field Caterers makes sure that the food is prepared in hygienic conditions and clean environment, using only fresh ingredients. </p>
-        <div class="flex items-center mt-24">
-            <div class="flex items-center space-x-1 rtl:space-x-reverse">
-                <svg class="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
-                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
-                </svg>
-                <svg class="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
-                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
-                </svg>
-                <svg class="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
-                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
-                </svg>
-                <svg class="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
-                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
-                </svg>
-                <svg class="w-4 h-4 text-gray-200 dark:text-gray-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
-                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
-                </svg>
-            </div>
-            <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ms-3">5.0</span>
-        </div>
-        <br />
-        <div class="flex items-center justify-between" >
-            <span class="text-xl text-gray-900 font-light dark:text-white">From 350</span>
              
-            <Button onClick={toggleModal} className='ml-80'>
-        Request Pricing
-      </Button>
-            <Modal show={isOpen} onClose={toggleModal} >
-        <ModalHeader className='mb-6  bg-green-500'>
-          Request Details
-        </ModalHeader>
-        <ModalBody>
-        <div className="relative flex items-center space-x-2 ring-offset-blue-600">
-      <TextInput
-        type="text"
-        value={text}
-        className="flex-grow bg-slate-500 font-bold"
-      />
-      <Button 
-        onClick={handleCopy}
-        color="primary"
-        className="px-4 py-2 text-white bg-blue-600 rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50"
-      >
-        Copy
-      </Button>
-      {copied && (
-        <Tooltip content="Copied!" placement="top" open>
-          <span className="absolute -top-8 left-1/2 transform -translate-x-1/2 bg-gray-800 text-white text-xs rounded px-2 py-1">
-            Copied!
-          </span>
-        </Tooltip>
-      )}
-    </div>
-        </ModalBody>
-        <ModalFooter>
-          <Button onClick={toggleModal}>
-            Close
-          </Button>
-          
-        </ModalFooter>
-      </Modal>
-        </div>
+
+           
+</div>
+        
     </div>
 </div>
 
 <div class=" flex flex-col lg:flex-row w-full h-max max-w-full  bg-fuchsia-400 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <a href="#">
-        <img class="p-8 rounded-t-lg h-96 max-w-96" src="https://www.legendaryhospitality.in/wp-content/uploads/2023/05/j009-2-5.jpg" alt="Photography image" />
+        <img class="p-8 rounded-t-lg h-96 max-w-96" src="https://cdn0.weddingwire.in/vendor/7145/original/1280/jpeg/img-7570_15_207145-170815274118159.webp" alt="Photography image" />
     </a>
     <div class="px-5 pb-5 ">
         <a href="#">
-            <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white mt-7">Aishwarya Caterers</h5>
+            <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white mt-7">Ashwini Makeup Artist</h5>
         </a>
         <br />
-        <p>Aishwarya Caterers are based out in the city of Chennai and have made many weddings have tasty buffets and menus that can make all your food problems have a delicious end. They are always trying to add a beautiful and attractive appearance to your food set-up. They have a team that has experience in the field of food and beverages and make it a point to deliver what you are looking for. There is always a chance that you will what they are bringing on the table will stay in your minds forever.</p>
+        <p>Ashwini Makeup Artist is a famous bridal makeup service provider based in Mumbai. For every bride-to-be, it becomes imperative to look stunning for their special day. Makeup is one of the most important aspects of a bridal makeover; hence, it must be done by an expert. Therefore, if you are looking for a team of makeup artists who offer you a wide range of services for all your wedding functions, then Ashwini Makeup Artist is the choice that you should make. She is someone who has turned her passion into a profession and believes in bringing out natural beauty in her brides. </p>
         <div class="flex items-center mt-24">
             <div class="flex items-center space-x-1 rtl:space-x-reverse">
                 <svg class="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
@@ -208,55 +177,15 @@ const [isOpen, setIsOpen] = useState(false);
         </div>
         <br />
         <div class="flex items-center justify-between" >
-            <span class="text-xl text-gray-900 font-light dark:text-white">From 450</span>
-             
+            <span class="text-xl text-gray-900 font-light dark:text-white">From Rs.10,000</span>
+    </div>
+</div>
+</div>
 
-            <Button onClick={toggleModal} className='ml-80'>
-        Request Pricing
-      </Button>
-            <Modal show={isOpen} onClose={toggleModal} >
-        <ModalHeader className='mb-6 bg-green-500'>
-          Request Details
-        </ModalHeader>
-        <ModalBody>
-        <div className="relative flex items-center space-x-2 ring-offset-blue-600">
-      <TextInput
-        type="text"
-        value={text}
-        className="flex-grow bg-slate-500 font-bold"
-      />
-      <Button 
-        onClick={handleCopy}
-        color="primary"
-        className="px-4 py-2 text-white bg-blue-600 rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50"
-      >
-        Copy
-      </Button>
-      {copied && (
-        <Tooltip content="Copied!" placement="top" open>
-          <span className="absolute -top-8 left-1/2 transform -translate-x-1/2 bg-gray-800 text-white text-xs rounded px-2 py-1">
-            Copied!
-          </span>
-        </Tooltip>
-      )}
-    </div>
-        </ModalBody>
-        <ModalFooter>
-          <Button onClick={toggleModal}>
-            Close
-          </Button>
-          
-        </ModalFooter>
-      </Modal>
-    
-</div>
-        
-    </div>
-</div>
 </div>
 
        
     );
 };
 
-export default Caterers;
+export default Offerone;

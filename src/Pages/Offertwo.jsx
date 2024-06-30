@@ -1,38 +1,65 @@
 
 import React, { useState } from 'react';
-import { Modal, ModalHeader, ModalBody, ModalFooter, Button } from 'flowbite-react' 
-import {  Tooltip, TextInput } from 'flowbite-react';
 
 
 
-const Caterers = () => {
-    const [text] = useState('+918976548436');
-  const [copied, setCopied] = useState(false);
 
-  const handleCopy = () => {
-    navigator.clipboard.writeText(text).then(() => {
-      setCopied(true);
-      setTimeout(() => setCopied(false), 2000);
-    });
-  };
-
-const [isOpen, setIsOpen] = useState(false);
-
-  const toggleModal = () => {
-    setIsOpen(!isOpen);
-  };
+const Offertwo = () => {
+   
+  
     return (
         <div>
-<div class=" flex flex-col lg:flex-row w-full h-max max-w-full  bg-fuchsia-400 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+<div class=" flex flex-col lg:flex-row w-full h-max max-w-full bg-fuchsia-400 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <a href="#">
-        <img class="p-8 rounded-t-lg h-96 max-w-96" src="https://www.bellapersonalchef.com/wp-content/uploads/2022/09/A-Look-at-Our-4-Most-Popular-Catering-Services-1080x1080-image1-632883052fafd.jpg" alt="Photography image" />
+        <img class="p-8 rounded-t-lg h-96 max-w-96" src="https://cdn0.weddingwire.in/vendor/9168/3_2/960/jpg/wedding-photography-studiosix-by-chennai-wedding-photography-couple-shot-23_15_79168-158392634222558.jpeg" alt="Photography image" />
     </a>
     <div class="px-5 pb-5 ">
         <a href="#">
-            <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white mt-7">Thanshika Catering</h5>
+            <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white mt-7">Pondy Photography</h5>
         </a>
         <br />
-        <p>Based in Chennai, Thanshika Catering Services is a wedding catering service provider who can fulfil all the tasty delight needs at your nuptial ceremonies and can provide a blissful relief to all those hunger pangs and make your guests appreciate the grand feast for years. They have all the expertise and skills in providing you with exceptional dishes and great wedding experience. They have everything required for any buffet to look flawless and have a taste that no guest can resist. The team of Thanshika Catering Services deliver first-class food, along with menus designed specially to suit your needs. </p>
+        <p>Nanda Films is full of hardworking photographers and videographers who capture all the rare and serene moments of your ceremonies and makes sure that you are satisfied with the final outcome. They cover your functions in both, candid and traditional, styles of photography and videography and are also ready to travel outstations and be a part of your occasion to cover it with the utmost perfection.They offer a wide array of packages and services which you can select and personalize as per your requirements and the budget. </p>
+        <div class="flex items-center mt-24">
+            <div class="flex items-center space-x-1 rtl:space-x-reverse">
+                <svg class="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                </svg>
+                <svg class="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                </svg>
+                <svg class="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                </svg>
+                <svg class="w-4 h-4 text-gray-200 dark:text-gray-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                </svg>
+                <svg class="w-4 h-4 text-gray-200 dark:text-gray-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                </svg>
+            </div>
+            <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ms-3">5.0</span>
+        </div>
+        <br />
+        <div class="flex items-center justify-between" >
+            <span class="text-xl text-gray-900 font-light dark:text-white">Rs.90,000</span>
+    
+      
+  
+  </div>
+
+        </div>
+</div>
+
+<div class=" flex flex-col lg:flex-row w-full h-max max-w-full  bg-fuchsia-400 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+    <a href="#">
+        <img class="p-8 rounded-t-lg h-96 max-w-96" src="https://cdn0.weddingwire.in/vendor/8602/3_2/960/jpg/weddingvenues-bhushan-banquet-hall-banquethall-3_15_428602-166737477526098.webp" alt="Photography image" />
+    </a>
+    <div class="px-5 pb-5 ">
+        <a href="#">
+            <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white mt-7">Riya Hall </h5>
+        </a>
+        <br />
+        <p>Riya Hall is a beautiful wedding venue located in Koregaon, Mumbai. Look no further if you are looking for a banquet hall while planning your wedding in town. The decor and ambience of the place offer a perfect blend of simplicity and comfort. It would be best if you definitely had the ideal venue to organise a grand and flawless wedding. If you are looking for a great platform to host any of your wedding functions, then Bhushan Banquet Hal is the choice that you should definitely make.</p>
         <div class="flex items-center mt-24">
             <div class="flex items-center space-x-1 rtl:space-x-reverse">
                 <svg class="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
@@ -55,50 +82,9 @@ const [isOpen, setIsOpen] = useState(false);
         </div>
         <br />
         <div class="flex items-center justify-between" >
-            <span class="text-xl text-gray-900 font-light dark:text-white">From 200</span>
-    
-    <Button onClick={toggleModal} className='ml-80'>
-        Request Pricing
-      </Button>
-      <Modal show={isOpen} onClose={toggleModal} >
-        <ModalHeader className='mb-6  bg-green-500'>
-          Request Details
-        </ModalHeader>
-        <ModalBody>
-        <div className="relative flex items-center space-x-2 ring-offset-blue-600">
-      <TextInput
-        type="text"
-        value={text}
-        className="flex-grow bg-slate-500 font-bold"
-      />
-      <Button 
-        onClick={handleCopy}
-        color="primary"
-        className="px-4 py-2 text-white bg-blue-600 rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50"
-      >
-        Copy
-      </Button>
-      {copied && (
-        <Tooltip content="Copied!" placement="top" open>
-          <span className="absolute -top-8 left-1/2 transform -translate-x-1/2 bg-gray-800 text-white text-xs rounded px-2 py-1">
-            Copied!
-          </span>
-        </Tooltip>
-      )}
+            <span class="text-xl text-gray-900 font-light dark:text-white">From Rs.200000</span>
+      </div>
     </div>
-        </ModalBody>
-        <ModalFooter>
-          <Button onClick={toggleModal}>
-            Close
-          </Button>
-          
-        </ModalFooter>
-      </Modal>
-    
-  
-  </div>
-
-        </div>
 </div>
 
 <div class=" flex flex-col lg:flex-row w-full h-max max-w-full   bg-fuchsia-400 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
@@ -134,58 +120,25 @@ const [isOpen, setIsOpen] = useState(false);
         <br />
         <div class="flex items-center justify-between" >
             <span class="text-xl text-gray-900 font-light dark:text-white">From 350</span>
+     
              
-            <Button onClick={toggleModal} className='ml-80'>
-        Request Pricing
-      </Button>
-            <Modal show={isOpen} onClose={toggleModal} >
-        <ModalHeader className='mb-6  bg-green-500'>
-          Request Details
-        </ModalHeader>
-        <ModalBody>
-        <div className="relative flex items-center space-x-2 ring-offset-blue-600">
-      <TextInput
-        type="text"
-        value={text}
-        className="flex-grow bg-slate-500 font-bold"
-      />
-      <Button 
-        onClick={handleCopy}
-        color="primary"
-        className="px-4 py-2 text-white bg-blue-600 rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50"
-      >
-        Copy
-      </Button>
-      {copied && (
-        <Tooltip content="Copied!" placement="top" open>
-          <span className="absolute -top-8 left-1/2 transform -translate-x-1/2 bg-gray-800 text-white text-xs rounded px-2 py-1">
-            Copied!
-          </span>
-        </Tooltip>
-      )}
-    </div>
-        </ModalBody>
-        <ModalFooter>
-          <Button onClick={toggleModal}>
-            Close
-          </Button>
-          
-        </ModalFooter>
-      </Modal>
-        </div>
+
+           
+</div>
+        
     </div>
 </div>
 
-<div class=" flex flex-col lg:flex-row w-full h-max max-w-full  bg-fuchsia-400 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+<div class=" flex flex-col lg:flex-row w-full h-max max-w-full   bg-fuchsia-400 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <a href="#">
-        <img class="p-8 rounded-t-lg h-96 max-w-96" src="https://www.legendaryhospitality.in/wp-content/uploads/2023/05/j009-2-5.jpg" alt="Photography image" />
+        <img class="p-8 rounded-t-lg h-96 max-w-96" src="https://cdn0.weddingwire.in/vendor/1523/original/1280/jpg/87287680-501495344115338-1339884282860011520-o_15_231523-158831127988468.webp" alt="Photography image" />
     </a>
     <div class="px-5 pb-5 ">
         <a href="#">
-            <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white mt-7">Aishwarya Caterers</h5>
+            <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white mt-7">Dhanu Gupta Makeovers </h5>
         </a>
         <br />
-        <p>Aishwarya Caterers are based out in the city of Chennai and have made many weddings have tasty buffets and menus that can make all your food problems have a delicious end. They are always trying to add a beautiful and attractive appearance to your food set-up. They have a team that has experience in the field of food and beverages and make it a point to deliver what you are looking for. There is always a chance that you will what they are bringing on the table will stay in your minds forever.</p>
+        <p>Dhanu Gupta Makeovers is a talented and exquisite makeup artist based out of Delhi. Makeup is that one feature which stays with you when the rest of thing start fading and makes you feel enlighted and feel glam and if you are planning a wedding ceremony then it becomes important to opt for a good and amazing makeup artist who can upgrade your looks to the fullest. If you are planning one such function and looking for one such person then Dhanu Gupta Makeovers can help you in availing top-notched beauty services with ease and happiness. </p>
         <div class="flex items-center mt-24">
             <div class="flex items-center space-x-1 rtl:space-x-reverse">
                 <svg class="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
@@ -208,50 +161,10 @@ const [isOpen, setIsOpen] = useState(false);
         </div>
         <br />
         <div class="flex items-center justify-between" >
-            <span class="text-xl text-gray-900 font-light dark:text-white">From 450</span>
+            <span class="text-xl text-gray-900 font-light dark:text-white">From Rs.15,000</span>
              
-
-            <Button onClick={toggleModal} className='ml-80'>
-        Request Pricing
-      </Button>
-            <Modal show={isOpen} onClose={toggleModal} >
-        <ModalHeader className='mb-6 bg-green-500'>
-          Request Details
-        </ModalHeader>
-        <ModalBody>
-        <div className="relative flex items-center space-x-2 ring-offset-blue-600">
-      <TextInput
-        type="text"
-        value={text}
-        className="flex-grow bg-slate-500 font-bold"
-      />
-      <Button 
-        onClick={handleCopy}
-        color="primary"
-        className="px-4 py-2 text-white bg-blue-600 rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50"
-      >
-        Copy
-      </Button>
-      {copied && (
-        <Tooltip content="Copied!" placement="top" open>
-          <span className="absolute -top-8 left-1/2 transform -translate-x-1/2 bg-gray-800 text-white text-xs rounded px-2 py-1">
-            Copied!
-          </span>
-        </Tooltip>
-      )}
-    </div>
-        </ModalBody>
-        <ModalFooter>
-          <Button onClick={toggleModal}>
-            Close
-          </Button>
-          
-        </ModalFooter>
-      </Modal>
-    
 </div>
-        
-    </div>
+</div>
 </div>
 </div>
 
@@ -259,4 +172,4 @@ const [isOpen, setIsOpen] = useState(false);
     );
 };
 
-export default Caterers;
+export default Offertwo;

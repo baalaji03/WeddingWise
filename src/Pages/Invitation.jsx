@@ -5,8 +5,8 @@ import {  Tooltip, TextInput } from 'flowbite-react';
 
 
 
-const Caterers = () => {
-    const [text] = useState('+918976548436');
+const Invitation = () => {
+    const [text] = useState('+9197953282436');
   const [copied, setCopied] = useState(false);
 
   const handleCopy = () => {
@@ -23,16 +23,16 @@ const [isOpen, setIsOpen] = useState(false);
   };
     return (
         <div>
-<div class=" flex flex-col lg:flex-row w-full h-max max-w-full  bg-fuchsia-400 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+<div class="flex flex-col lg:flex-row w-full h-max max-w-full  bg-fuchsia-400 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <a href="#">
-        <img class="p-8 rounded-t-lg h-96 max-w-96" src="https://www.bellapersonalchef.com/wp-content/uploads/2022/09/A-Look-at-Our-4-Most-Popular-Catering-Services-1080x1080-image1-632883052fafd.jpg" alt="Photography image" />
+        <img class="p-8 rounded-t-lg h-96 max-w-96" src="https://cdn0.weddingwire.in/vendor/1053/original/1280/jpg/evening-events.webp" alt="Photography image" />
     </a>
     <div class="px-5 pb-5 ">
         <a href="#">
-            <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white mt-7">Thanshika Catering</h5>
+            <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white mt-7">Miracle Wedding Cards</h5>
         </a>
         <br />
-        <p>Based in Chennai, Thanshika Catering Services is a wedding catering service provider who can fulfil all the tasty delight needs at your nuptial ceremonies and can provide a blissful relief to all those hunger pangs and make your guests appreciate the grand feast for years. They have all the expertise and skills in providing you with exceptional dishes and great wedding experience. They have everything required for any buffet to look flawless and have a taste that no guest can resist. The team of Thanshika Catering Services deliver first-class food, along with menus designed specially to suit your needs. </p>
+        <p>Miracle Wedding Cards is a company based in the city of Chennai that specialises in premium and customised wedding invitation cards that you can choose for the biggest day in your life. Weddings are the new beginnings that are filled with love, compassion and festivities which marks the most special day in their life which they would remember for life. The first step of making such a grand event much more unique and everlasting is choosing the right kind of wedding invitation which would speak volumes about the kind of celebrations that you would be having. </p>
         <div class="flex items-center mt-24">
             <div class="flex items-center space-x-1 rtl:space-x-reverse">
                 <svg class="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
@@ -55,13 +55,13 @@ const [isOpen, setIsOpen] = useState(false);
         </div>
         <br />
         <div class="flex items-center justify-between" >
-            <span class="text-xl text-gray-900 font-light dark:text-white">From 200</span>
+            <span class="text-xl text-gray-900 font-light dark:text-white">From Rs.10</span>
     
     <Button onClick={toggleModal} className='ml-80'>
         Request Pricing
       </Button>
       <Modal show={isOpen} onClose={toggleModal} >
-        <ModalHeader className='mb-6  bg-green-500'>
+        <ModalHeader className='mb-6 bg-stone-500'>
           Request Details
         </ModalHeader>
         <ModalBody>
@@ -103,14 +103,14 @@ const [isOpen, setIsOpen] = useState(false);
 
 <div class=" flex flex-col lg:flex-row w-full h-max max-w-full   bg-fuchsia-400 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <a href="#">
-        <img class="p-8 rounded-t-lg h-96 max-w-96" src="https://cdn0.weddingwire.in/vendor/5416/3_2/640/jpg/catering-for-your-event_v8.jpeg" alt="Photography image" />
+        <img class="p-8 rounded-t-lg h-96 max-w-96" src="https://cdn0.weddingwire.in/vendor/6579/original/1280/jpg/22550038-1509731929116881-5261351940483134530-n_15_186579.webp" alt="Photography image" />
     </a>
     <div class="px-5 pb-5 ">
         <a href="#">
-            <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white mt-7">Field Caterers </h5>
+            <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white mt-7">Wedding Invitation Cards </h5>
         </a>
         <br />
-        <p>Field Caterers, a catering and hospitality company in Chennai has a select team of cooks and service staff which make sure that you and your guests have a great dining experience. They understand the needs and demands of the client and their guests at the event and offer you great meals that will leave you asking for more. Field Caterers makes sure that the food is prepared in hygienic conditions and clean environment, using only fresh ingredients. </p>
+        <p>Wedding Invitation Cards Chennai is a wedding card provider based in the city of Chennai. Wedding invitations are the beautiful and creative piece of information that first break the news of your wedding. It is imperative that if it is the first thing which your guests would be seeing in terms of your wedding preparations, it should be something unique and beautiful so that it can make a lasting impact on them, just like your wedding. If you are looking for a vendor who can provide you with that, then Wedding Invitation Cards Chennai is a name you should consider.</p>
         <div class="flex items-center mt-24">
             <div class="flex items-center space-x-1 rtl:space-x-reverse">
                 <svg class="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
@@ -133,13 +133,13 @@ const [isOpen, setIsOpen] = useState(false);
         </div>
         <br />
         <div class="flex items-center justify-between" >
-            <span class="text-xl text-gray-900 font-light dark:text-white">From 350</span>
+            <span class="text-xl text-gray-900 font-light dark:text-white">From Rs.8</span>
              
             <Button onClick={toggleModal} className='ml-80'>
         Request Pricing
       </Button>
             <Modal show={isOpen} onClose={toggleModal} >
-        <ModalHeader className='mb-6  bg-green-500'>
+        <ModalHeader className='mb-6  bg-stone-500'>
           Request Details
         </ModalHeader>
         <ModalBody>
@@ -178,14 +178,14 @@ const [isOpen, setIsOpen] = useState(false);
 
 <div class=" flex flex-col lg:flex-row w-full h-max max-w-full  bg-fuchsia-400 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <a href="#">
-        <img class="p-8 rounded-t-lg h-96 max-w-96" src="https://www.legendaryhospitality.in/wp-content/uploads/2023/05/j009-2-5.jpg" alt="Photography image" />
+        <img class="p-8 rounded-t-lg h-96 max-w-96" src="https://cdn0.weddingwire.in/vendor/6579/3_2/960/jpg/22492004-1509727852450622-8400186164059087962-n_15_186579.webp" alt="Photography image" />
     </a>
     <div class="px-5 pb-5 ">
         <a href="#">
-            <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white mt-7">Aishwarya Caterers</h5>
+            <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white mt-7">Shankesvar Cards</h5>
         </a>
         <br />
-        <p>Aishwarya Caterers are based out in the city of Chennai and have made many weddings have tasty buffets and menus that can make all your food problems have a delicious end. They are always trying to add a beautiful and attractive appearance to your food set-up. They have a team that has experience in the field of food and beverages and make it a point to deliver what you are looking for. There is always a chance that you will what they are bringing on the table will stay in your minds forever.</p>
+        <p>Shankesvar Cards is an invitation company located in Mylapore which is situated in the city of Chennai. Offering a wide array of wedding card designs and patterns, they are a one-stop solution for each of your requirements for your wedding cards. They know the fact that your card is the main thing that connects with your guests and offers them your warm welcome to the great event and therefore, they guarantee to make it the best for you. If you are searching for a decent wedding card company to design and print astounding cards for you, then Shankesvar Cards is the go-to option for you.</p>
         <div class="flex items-center mt-24">
             <div class="flex items-center space-x-1 rtl:space-x-reverse">
                 <svg class="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
@@ -208,14 +208,14 @@ const [isOpen, setIsOpen] = useState(false);
         </div>
         <br />
         <div class="flex items-center justify-between" >
-            <span class="text-xl text-gray-900 font-light dark:text-white">From 450</span>
+            <span class="text-xl text-gray-900 font-light dark:text-white">From Rs15</span>
              
 
             <Button onClick={toggleModal} className='ml-80'>
         Request Pricing
       </Button>
             <Modal show={isOpen} onClose={toggleModal} >
-        <ModalHeader className='mb-6 bg-green-500'>
+        <ModalHeader className='mb-6 bg-stone-500'>
           Request Details
         </ModalHeader>
         <ModalBody>
@@ -259,4 +259,4 @@ const [isOpen, setIsOpen] = useState(false);
     );
 };
 
-export default Caterers;
+export default Invitation;

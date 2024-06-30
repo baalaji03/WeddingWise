@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
-import { AiOutlineSearch } from "react-icons/ai";
+
 import { FaMoon, FaSun } from "react-icons/fa";
 import {
   Avatar,
@@ -29,33 +29,16 @@ const Header = () => {
     }
 
   return (
-    <Navbar className="border-b-2 dark:bg-black">
+    <Navbar className="border-b-2 dark:bg-black bg-gray-800">
       <Link
         to="/"
         className="self-center whitespace-nowrap text-sm sm:text-xl font-semibold dark:text-white mr-auto"
       >
-        <span className="px-2 py-1 bg-gradient-to-r from bg-pink-600 via-purple-500 to from-indigo-600 text-transparent bg-clip-text">
+        <span className="px-2 py-1   font-bold text-2xl bg-gradient-to-r from bg-pink-500 via-purple-500 to from-indigo-600 text-transparent bg-clip-text">
           WeddingWise
         </span>
       </Link>
-      <form>
-        <TextInput
-          type="text"
-          placeholder="Search the Vendor Company or Name..."
-          rightIcon={AiOutlineSearch}
-          className="hidden lg:inline"
-          
-        />
-      </form>
-      <Button
-        className="w-12 h-10 lg:hidden text-dark"
-        gradientMonochrome="cyan"
-        outline
-        pill
-        
-      >
-        <AiOutlineSearch />
-      </Button>
+      
       <div className="flex gap-5 order-2 ml-auto">
         {currentuser ? (
           <Dropdown
@@ -107,9 +90,9 @@ const Header = () => {
         <Navbar.Toggle />
       </div>
       <NavbarCollapse>
-        <div className="relative group">
+        <div className="relative group ">
           <Navbar.Link active={path === "/PlanningTool"} as={"div"}>
-            <Link to="/PlanningTool">PlanningTool</Link>
+            <Link to="/PlanningTool" className="text-white">PlanningTool</Link>
           </Navbar.Link>
 
           <div className="md:absolute left-0 top-full hidden group-hover:flex flex-col mt-2 bg-white shadow-lg">
@@ -119,23 +102,12 @@ const Header = () => {
             >
               Budget
             </Link>
-            <Link
-              to="/PlanningTool/Outdoor"
-              className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-            >
-              Outdoor Venues
-            </Link>
-            <Link
-              to="/PlanningTool/Destination"
-              className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-            >
-              Destination Venues
-            </Link>
+           
           </div>
         </div>
         <div className="relative group">
           <Navbar.Link active={path === "/WeddingVendor"} as={"div"}>
-            <Link to="/WeddingVendor">WeddingVendor</Link>
+            <Link to="/WeddingVendor" className="text-white">WeddingVendor</Link>
           </Navbar.Link>
           <div className=" md:absolute left-0 top-full hidden group-hover:flex flex-col mt-2 bg-white shadow-lg">
             <Link
@@ -166,7 +138,7 @@ const Header = () => {
         </div>
         <div className="relative group">
           <Navbar.Link active={path === "/WeddingVenue"} as={"div"}>
-            <Link to="/WeddingVenue">WeddingVenue</Link>
+            <Link to="/WeddingVenue" className="text-white">WeddingVenue</Link>
           </Navbar.Link>
           <div className=" md:absolute left-0 top-full hidden group-hover:flex flex-col mt-2 bg-white shadow-lg">
             <Link
@@ -191,7 +163,7 @@ const Header = () => {
         </div>
         <div className="relative group">
           <Navbar.Link active={path === "/Bride"} as={"div"}>
-            <Link to="/Bride">Bride</Link>
+            <Link to="/Bride" className="text-white">Bride</Link>
           </Navbar.Link>
           <div className=" md:absolute left-0 top-full hidden group-hover:flex flex-col mt-2 bg-white shadow-lg">
             <Link
@@ -210,7 +182,7 @@ const Header = () => {
         </div>
         <div className="relative group">
           <Navbar.Link active={path === "/Groom"} as={"div"}>
-            <Link to="/Groom">Groom</Link>
+            <Link to="/Groom" className="text-white text-md ">Groom</Link>
           </Navbar.Link>
           <div className=" md:absolute left-0 top-full hidden group-hover:flex flex-col mt-2 bg-white shadow-lg">
             <Link

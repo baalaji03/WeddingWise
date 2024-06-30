@@ -4,7 +4,7 @@ import React from 'react';
 
 const FooterCom = () => {
     return (
-        <Footer container className='border border-t-8 dark:bg-black'>
+        <Footer container className='border border-t-8 dark:bg-black bg-orange-200 '>
         <div className="w-full">
           <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
             <div>
