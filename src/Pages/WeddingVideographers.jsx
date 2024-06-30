@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Modal, ModalHeader, ModalBody, ModalFooter, Button } from 'flowbite-react' 
 import {  Tooltip, TextInput } from 'flowbite-react';
+import { Link } from 'react-router-dom';
 
 
 
@@ -56,7 +57,7 @@ const [isOpen, setIsOpen] = useState(false);
         <div class="flex items-center justify-between" >
             <span class="text-xl text-gray-900 font-light dark:text-white">Rs.50,000</span>
     
-    <Button onClick={toggleModal} className='ml-80'>
+    <Button onClick={toggleModal} className='sm:ml-80'>
         Request Pricing
       </Button>
       <Modal show={isOpen} onClose={toggleModal} >
@@ -101,7 +102,7 @@ const [isOpen, setIsOpen] = useState(false);
 </div>
 
 <div class=" flex flex-col lg:flex-row w-full h-max max-w-full bg-fuchsia-400 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-    <Kink to="#">
+    <Link to="#">
         <img class="p-8 rounded-t-lg h-96 max-w-96" src="https://cdn0.weddingwire.in/vendor/0241/3_2/1280/jpg/1s8a4149-edit_15_70241_v1.webp" alt="Photography image" />
     </Link>
     <div class="px-5 pb-5 ">
@@ -134,7 +135,7 @@ const [isOpen, setIsOpen] = useState(false);
         <div class="flex items-center justify-between" >
             <span class="text-xl text-gray-900 font-light dark:text-white">Rs.70,000</span>
              
-            <Button onClick={toggleModal} className='ml-80'>
+            <Button onClick={toggleModal} className='sm:ml-80'>
         Request Pricing
       </Button>
             <Modal show={isOpen} onClose={toggleModal} >
@@ -210,7 +211,7 @@ const [isOpen, setIsOpen] = useState(false);
             <span class="text-xl text-gray-900 font-light dark:text-white">Rs.35,000</span>
              
 
-            <Button onClick={toggleModal} className='ml-80'>
+            <Button onClick={toggleModal} className='sm:ml-80'>
         Request Pricing
       </Button>
             <Modal show={isOpen} onClose={toggleModal} >

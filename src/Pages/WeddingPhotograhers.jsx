@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { Modal, ModalHeader, ModalBody, ModalFooter, Button } from 'flowbite-react' 
 import {  Tooltip, TextInput } from 'flowbite-react';
+import { Link } from 'react-router-dom';
 
 
 
@@ -57,7 +58,7 @@ const [isOpen, setIsOpen] = useState(false);
         <div class="flex items-center justify-between" >
             <span class="text-xl text-gray-900 font-light dark:text-white">Rs.90,000</span>
     
-    <Button onClick={toggleModal} className='ml-80'>
+    <Button onClick={toggleModal} className='sm:ml-80'>
         Request Pricing
       </Button>
       <Modal show={isOpen} onClose={toggleModal} >
@@ -135,7 +136,7 @@ const [isOpen, setIsOpen] = useState(false);
         <div class="flex items-center justify-between" >
             <span class="text-xl text-gray-900 font-light dark:text-white">Rs.1,50,000</span>
              
-            <Button onClick={toggleModal} className='ml-80'>
+            <Button onClick={toggleModal} className='sm:ml-80'>
         Request Pricing
       </Button>
             <Modal show={isOpen} onClose={toggleModal} >
@@ -211,7 +212,7 @@ const [isOpen, setIsOpen] = useState(false);
             <span class="text-xl text-gray-900 font-light dark:text-white">Rs.50,000</span>
              
 
-            <Button onClick={toggleModal} className='ml-80'>
+            <Button onClick={toggleModal} className='sm:ml-80'>
         Request Pricing
       </Button>
             <Modal show={isOpen} onClose={toggleModal} >

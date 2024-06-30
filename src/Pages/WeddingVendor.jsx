@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 
 const WeddingVendor = () => {
     return (
@@ -61,7 +63,7 @@ const WeddingVendor = () => {
 <div class="max-w-sm mt-10 mb-5 ml-10 p-6 hover:bg-violet-300 bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-black"  >
     <Link to="/WeddingVendor/Caterers">
         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white hover:text-blue-500 dark:hover:text-blue-500  " >Wedding Caterers</h5>
-    </LInk>
+    </Link>
     <img className='mt-3 h-60 w-96' src='https://mehroliacaterers.com/wp-content/uploads/2021/02/chasse-sauvage-zlUGL4hBHcw-unsplash-1536x1026.jpg' alt='caterers image' />
     <br />
     <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Find the best wedding caterers to fulfil your guests' tastebuds.</p>
