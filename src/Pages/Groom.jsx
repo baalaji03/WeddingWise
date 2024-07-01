@@ -27,7 +27,7 @@ const Groom = () => {
         </svg>
     </Link>
 </div>
-<div class="max-w-sm mt-10 mb-5 ml-9 p-6 hover:bg-violet-300   bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-black"  >
+<div class="max-w-sm mt-10 mb-5 ml-9 mr-10 p-6 hover:bg-violet-300   bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-black"  >
     <Link to="/Groom/GroomMakeup">
         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white hover:text-blue-500 dark:hover:text-blue-500  " >Groom Makeup Artists</h5>
     </Link>

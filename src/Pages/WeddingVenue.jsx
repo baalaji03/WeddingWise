@@ -27,7 +27,7 @@ const WeddingVenue = () => {
         </svg>
     </Link>
 </div>
-<div class="max-w-sm mt-10 mb-5 ml-5 p-6 hover:bg-violet-300 bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-black"  >
+<div class="max-w-sm mt-10 mb-5 ml-5 mr-5 p-6 hover:bg-violet-300 bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-black"  >
     <Link to="/WeddingVenue/WeddingResort">
         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white hover:text-blue-500 dark:hover:text-blue-500  " >Wedding Resorts</h5>
     </Link>
@@ -43,7 +43,7 @@ const WeddingVenue = () => {
     </Link>
 </div>
 
-<div class="max-w-sm mt-10 mb-5 ml-5 p-6 hover:bg-violet-300 bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-black"  >
+<div class="max-w-sm mt-10 mb-5 ml-5 mr-5 p-6 hover:bg-violet-300 bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-black"  >
     <Link to="/WeddingVenue/Mandapam">
         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white hover:text-blue-500 dark:hover:text-blue-500  " >Marriage Halls</h5>
     </Link>

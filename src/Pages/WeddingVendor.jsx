@@ -13,7 +13,7 @@ const WeddingVendor = () => {
             
         <div className='grid grid-cols-1 sm:grid-cols-2   gap-4 bg-black '>
     
-           <div class="max-w-sm mt-10 mb-5 ml-10 p-6 hover:bg-violet-300 bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-black"  >
+           <div class="max-w-sm mt-10 mb-5 mr-5 ml-10 p-6 hover:bg-violet-300 bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-black"  >
     <Link to ="/WeddingVendor/WeddingPhotographers">
         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white hover:text-blue-500 dark:hover:text-blue-500  " >Wedding Photographers</h5>
     </Link>
@@ -29,7 +29,7 @@ const WeddingVendor = () => {
     </Link>
 </div> 
 
-           <div class="max-w-sm mt-10 mb-5 ml-10 p-6 hover:bg-violet-300 bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-black"  >
+           <div class="max-w-sm mt-10 mb-5 mr-5 ml-10 p-6 hover:bg-violet-300 bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-black"  >
     <Link to="/WeddingVendor/Weddingvideographers">
         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white hover:text-blue-500 dark:hover:text-blue-500  " >Wedding Videographers</h5>
     </Link>
@@ -44,7 +44,7 @@ const WeddingVendor = () => {
         </svg>
     </Link>
 </div> 
-<div class="max-w-sm mt-10 mb-5 ml-10 p-6 hover:bg-violet-300 bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-black"  >
+<div class="max-w-sm mt-10 mb-5 mr-5 ml-10 p-6 hover:bg-violet-300 bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-black"  >
     <Link to="/WeddingVendor/WeddingPlanners">
         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white hover:text-blue-500 dark:hover:text-blue-500  " >Wedding Planners</h5>
     </Link>
@@ -60,7 +60,7 @@ const WeddingVendor = () => {
     </Link>
 </div> 
 
-<div class="max-w-sm mt-10 mb-5 ml-10 p-6 hover:bg-violet-300 bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-black"  >
+<div class="max-w-sm mt-10 mb-5 mr-5 ml-10 p-6 hover:bg-violet-300 bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-black"  >
     <Link to="/WeddingVendor/Caterers">
         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white hover:text-blue-500 dark:hover:text-blue-500  " >Wedding Caterers</h5>
     </Link>

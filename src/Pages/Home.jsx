@@ -50,8 +50,8 @@ const Home = () => {
     
     return (
         <div>
-            <div className='flex border-2 bg-orange-200 dark:bg-zinc-600'>
-            <div className="flex-col ml-2">
+            <div className='flex flex-wrap border-2 bg-orange-200 dark:bg-zinc-600'>
+            <div className="flex-col ml-2 flex-grow">
             <h1 className='font-bold text-4xl mt-10'>Everything you need to <br />plan your event...</h1>
             <br />
             <br />
@@ -70,9 +70,9 @@ const Home = () => {
         />
       </form>
       </div>
-      
-<img class="rounded-full w-96 h-96 ml-96 mt-3 " src="https://png.pngtree.com/png-vector/20230912/ourmid/pngtree-cute-black-in-love-couple-png-image_10023144.png" alt="image description" />
-
+      <div className='flex justify-center items-center sm:ml-0 mt-3'>
+<img class="rounded-full max-w-full h-auto " src="https://png.pngtree.com/png-vector/20230912/ourmid/pngtree-cute-black-in-love-couple-png-image_10023144.png" alt="image description" />
+</div>
             </div>
 
 
