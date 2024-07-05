@@ -7,14 +7,15 @@ import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { app } from "../fireBase";
 
+
+
 const OAuth = () => {
   const auth = getAuth(app);
   const dispatch = useDispatch();
   const navigate = useNavigate();
-
-  const handleSubmit = async () => {
+  const handleSubmit = async() => {
     const provider = new GoogleAuthProvider();
-    provider.setCustomParameters({ prompt: "select_account" });
+    provider.setCustomParameters({ prompt:"select_account" });
     try {
       const result = await signInWithPopup(auth, provider);
       const res = await fetch("https://wedding-event-backend.netlify.app/api/auth/google", {
@@ -30,6 +31,7 @@ const OAuth = () => {
       });
       const data = await res.json();
       if (res.ok) {
+        
         dispatch(signInSuccess(data));
         navigate("/");
       }
@@ -37,7 +39,6 @@ const OAuth = () => {
       dispatch(signInFailure(error.message));
     }
   };
-  
 
   return (
     <Button type="button" gradientDuoTone="purpleToPink" onClick={handleSubmit}>
