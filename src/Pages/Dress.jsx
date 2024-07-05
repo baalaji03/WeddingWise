@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 
 const Dress = () => {
-    const [text] = useState('+919989828333');
+    const [text] = useState('+919989898333');
   const [copied, setCopied] = useState(false);
 
   const handleCopy = () => {
