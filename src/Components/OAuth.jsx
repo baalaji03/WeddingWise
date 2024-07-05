@@ -18,7 +18,7 @@ const OAuth = () => {
     try {
       const result = await signInWithPopup(auth, provider);
       const user = result.user;
-      const res = await fetch("https://wedding-event-frontend.netlify.app/api/auth/google", {
+      const res = await fetch("https://wedding-event-backend.netlify.app/api/auth/google", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
