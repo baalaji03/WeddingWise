@@ -17,31 +17,27 @@ const OAuth = () => {
     provider.setCustomParameters({ prompt: "select_account" });
     try {
       const result = await signInWithPopup(auth, provider);
-      const user = result.user;
       const res = await fetch("https://wedding-event-backend.netlify.app/api/auth/google", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          name: user.displayName,
-          email: user.email,
-          profilePic: user.photoURL,
+          name: result.user.displayName,
+          email: result.user.email,
+          profilePic: result.user.photoURL,
         }),
       });
-
       const data = await res.json();
       if (res.ok) {
         dispatch(signInSuccess(data));
         navigate("/");
-      } else {
-        throw new Error(data.message || "Failed to authenticate with backend");
       }
     } catch (error) {
-      console.error("Google Sign-In Error:", error.message);
       dispatch(signInFailure(error.message));
     }
   };
+  
 
   return (
     <Button type="button" gradientDuoTone="purpleToPink" onClick={handleSubmit}>
