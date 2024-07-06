@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 
 const Offerone = () => {
-    const [text] = useState('+91996022121');
+    const [text] = useState('+91996022181');
   const [copied, setCopied] = useState(false);
 
   const handleCopy = () => {
