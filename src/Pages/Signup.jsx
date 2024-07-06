@@ -25,7 +25,7 @@ const Signup = () => {
       try {
           setLoading(true);
           setErrorMessage(null);
-          const response = await fetch('https://backend-wedding-project.netlify.app/api/auth/register-user',{
+          const response = await fetch('https://wedding-event-frontend.netlify.app/api/auth/register-user',{
               method:'POST',
               headers:{
                   'Content-Type':'application/json'
